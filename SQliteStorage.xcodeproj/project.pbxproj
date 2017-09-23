@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6DD4CAC1F75D268008706B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD4CAB1F75D268008706B6 /* main.m */; };
+		D6DD4CAF1F75D268008706B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD4CAE1F75D268008706B6 /* AppDelegate.m */; };
+		D6DD4CB21F75D268008706B6 /* StorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD4CB11F75D268008706B6 /* StorageViewController.m */; };
+		D6DD4CB51F75D268008706B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DD4CB31F75D268008706B6 /* Main.storyboard */; };
+		D6DD4CB71F75D268008706B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DD4CB61F75D268008706B6 /* Assets.xcassets */; };
+		D6DD4CBA1F75D268008706B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DD4CB81F75D268008706B6 /* LaunchScreen.storyboard */; };
+		D6DD4CC31F75E221008706B6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DD4CC21F75E221008706B6 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6DD4CA71F75D267008706B6 /* SQliteStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQliteStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DD4CAB1F75D268008706B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DD4CAD1F75D268008706B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6DD4CAE1F75D268008706B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6DD4CB01F75D268008706B6 /* StorageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageViewController.h; sourceTree = "<group>"; };
+		D6DD4CB11F75D268008706B6 /* StorageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageViewController.m; sourceTree = "<group>"; };
+		D6DD4CB41F75D268008706B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DD4CB61F75D268008706B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DD4CB91F75D268008706B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DD4CBB1F75D268008706B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DD4CC21F75E221008706B6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DD4CA41F75D267008706B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DD4CC31F75E221008706B6 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6DD4C9E1F75D267008706B6 = {
+			isa = PBXGroup;
+			children = (
+				D6DD4CA91F75D268008706B6 /* SQliteStorage */,
+				D6DD4CA81F75D267008706B6 /* Products */,
+				D6DD4CC11F75E221008706B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DD4CA81F75D267008706B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD4CA71F75D267008706B6 /* SQliteStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DD4CA91F75D268008706B6 /* SQliteStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD4CAD1F75D268008706B6 /* AppDelegate.h */,
+				D6DD4CAE1F75D268008706B6 /* AppDelegate.m */,
+				D6DD4CB01F75D268008706B6 /* StorageViewController.h */,
+				D6DD4CB11F75D268008706B6 /* StorageViewController.m */,
+				D6DD4CB31F75D268008706B6 /* Main.storyboard */,
+				D6DD4CB61F75D268008706B6 /* Assets.xcassets */,
+				D6DD4CB81F75D268008706B6 /* LaunchScreen.storyboard */,
+				D6DD4CBB1F75D268008706B6 /* Info.plist */,
+				D6DD4CAA1F75D268008706B6 /* Supporting Files */,
+			);
+			path = SQliteStorage;
+			sourceTree = "<group>";
+		};
+		D6DD4CAA1F75D268008706B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD4CAB1F75D268008706B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6DD4CC11F75E221008706B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD4CC21F75E221008706B6 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DD4CA61F75D267008706B6 /* SQliteStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DD4CBE1F75D268008706B6 /* Build configuration list for PBXNativeTarget "SQliteStorage" */;
+			buildPhases = (
+				D6DD4CA31F75D267008706B6 /* Sources */,
+				D6DD4CA41F75D267008706B6 /* Frameworks */,
+				D6DD4CA51F75D267008706B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQliteStorage;
+			productName = SQliteStorage;
+			productReference = D6DD4CA71F75D267008706B6 /* SQliteStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DD4C9F1F75D267008706B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Naresh Kongara";
+				TargetAttributes = {
+					D6DD4CA61F75D267008706B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D6DD4CA21F75D267008706B6 /* Build configuration list for PBXProject "SQliteStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6DD4C9E1F75D267008706B6;
+			productRefGroup = D6DD4CA81F75D267008706B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DD4CA61F75D267008706B6 /* SQliteStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DD4CA51F75D267008706B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DD4CBA1F75D268008706B6 /* LaunchScreen.storyboard in Resources */,
+				D6DD4CB71F75D268008706B6 /* Assets.xcassets in Resources */,
+				D6DD4CB51F75D268008706B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DD4CA31F75D267008706B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DD4CB21F75D268008706B6 /* StorageViewController.m in Sources */,
+				D6DD4CAF1F75D268008706B6 /* AppDelegate.m in Sources */,
+				D6DD4CAC1F75D268008706B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6DD4CB31F75D268008706B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DD4CB41F75D268008706B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DD4CB81F75D268008706B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DD4CB91F75D268008706B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6DD4CBC1F75D268008706B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DD4CBD1F75D268008706B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6DD4CBF1F75D268008706B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQliteStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.SQliteStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6DD4CC01F75D268008706B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQliteStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjsu.SQliteStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DD4CA21F75D267008706B6 /* Build configuration list for PBXProject "SQliteStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DD4CBC1F75D268008706B6 /* Debug */,
+				D6DD4CBD1F75D268008706B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DD4CBE1F75D268008706B6 /* Build configuration list for PBXNativeTarget "SQliteStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DD4CBF1F75D268008706B6 /* Debug */,
+				D6DD4CC01F75D268008706B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6DD4C9F1F75D267008706B6 /* Project object */;
+}
